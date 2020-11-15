@@ -1,0 +1,57 @@
+@charset"utf-8";
+
+#header{}
+#header h1{}
+#header h1 a{}
+
+.hTop{
+    height:40px;
+    background:url(../images/include/hBg.png);
+    padding-left:20px;
+}
+.hTop h1{
+    width:239px;
+    height:100%;
+    text-indent:-9999px;
+    background:url(../images/include/h_logo.png)no-repeat left center;
+    background-size:100%;
+}
+
+.panel{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:0;
+    right:0;
+    text-indent:-9999px;
+}
+.panel a{
+    display:block;
+    height:100%;
+    padding-top:12px;
+    box-sizing:border-box;
+}
+.panel a span,.panel a::before,.panel a::after{
+    content:"";
+    display:block;
+    width:20px;
+    height:2px;
+    margin:0 auto;
+    background:#fff;
+}
+.panel a span{
+    margin:5px auto;
+}
+
+
+.hTop h1 a{display:block;}
+
+/*푸터*/
+
+#footer{}
+.fTop{}
+.fTop p{}
+.fTop a{}
+
+.fBottom{}
+.fBottom li{}
