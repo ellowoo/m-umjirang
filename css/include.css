@@ -48,10 +48,30 @@
 
 /*푸터*/
 
-#footer{}
-.fTop{}
+#footer{
+    background:#485d4b;
+    font-size:11px;
+    text-align:center;
+    color:#fff;
+    margin-top:50%;
+}
+.fTop{
+    padding-top:10px;
+}
 .fTop p{}
 .fTop a{}
 
-.fBottom{}
-.fBottom li{}
+.fBottom{
+    background:#485d4b;
+    font-size:11px;
+}
+.fBottom p{
+    padding-top:10px;
+    padding-left:60%;
+}
+.fBottom p a{
+    height:100%;
+    display:block;
+    color:#fff;
+}
+.fBottom p img{}
