@@ -14,45 +14,57 @@
 .mainCon01{
     position:relative;
     text-align:center;
-    margin-top:180px;
+    margin-top:20%;
 }
+
+.mainCon01:last-child{margin-top:0;}
+
 .mainCon01 h2{margin-bottom:20px;}
 .mainCon01 img{
     position:relative;
-    padding-top:10%;
-    padding-right:40%;
+    display:inline-block;
 }
 .mainCon01 h4{
-    position:absolute;
-    right:5%;
-    top:43%;
-    padding:20px 0px;
-    display:inline-block;}
-.mainCon01 p{
-    position:absolute;
-    top:56%;
-    right:9%;
-    left:50px;
-    padding-left:200px;
     padding-top:20px;
+    padding-left:27%;
+    display:inline-block;
+    font-size:13px;
+    text-align:left;
+}
+.mainCon01 p{
+    padding-left:130px;
+    padding-top:10px;
     font-size:12px;
     display:inline-block;
 }
 
-.con01Sns{display:inline-block;}
+.con01Sns{
+    display:block;
+    padding-left:28%;
+    padding-top:10px;
+}
 .con01Sns li{
     float:left;
-    padding:5px;
-    border:1px #215300;
+    padding-right:10px;
+    
 }
 
-.con01SnsT img{
-    padding:0 10px;
+.con01Sns img{
+    padding-top:5px;
+    display:block;
+    display:block;
+    
 }
-.con01SnsT{display:inline-block;}
-.con01SnsT img{}
+.con01SnsT{
+    display:block;
+    text-align:left;
+}
 
 .con01Txt{}
+.con01Txt p{
+    padding-left:0;
+    padding-top:20%;
+}
 .con01Txt li{}
 .con01Txt li span{font-weight:bold;}
 
@@ -70,8 +82,7 @@
     position:absolute;
     top:20px;
 }
-.con01insta p{
-}
+.con01insta p{}
 
 /*con01*/
 
@@ -92,7 +103,7 @@
 .mainCon02 p{
     color:#fff830;
     font-size:11px;
-    padding-top:5%;
+    padding:5%;
     padding-left:37%;
 }
 .con02ITxt{
@@ -100,7 +111,7 @@
 
 
 .mainCon02>img{
-    padding-bottom:120px;
+    padding-bottom:150px;
 }
 
 
@@ -112,7 +123,9 @@
     font-size:13px;
     padding-bottom:20%;
 }
-.con02ITxt h3{}
+.con02ITxt h3{
+    padding:0,15px,12px,0;
+}
 .con02ITxt span{
     display:block;
 }
@@ -124,10 +137,19 @@
 }
 
 .mainCon03{
+    position:relative;
     text-align:center;
     margin-top:550px;
     margin-bottom:320px;
 }
+
+.con03Txt{
+    position:absolute;
+    top:30%;
+    left:20%;
+    font-size:14px;
+}
+
 .mainCon03 h5{}
 .mainCon03 h5 span{
     display:block;
@@ -136,4 +158,10 @@
 }
 .mainCon03 h5 p{padding-top:10px;}
 
+..mainCon03 img:nth-child(2){}
 
+.con03Txt p img{
+    position:absolute;
+    right:-110px;
+    top:0;
+}

@@ -62,6 +62,7 @@
 .fTop a{}
 
 .fBottom{
+    padding-top:10px;
     background:#485d4b;
     font-size:11px;
 }
